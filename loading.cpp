@@ -6,34 +6,7 @@
 #include<dos.h>
 #include<conio.h>
 #include<string.h>
-/*void logorithm()
-{
- char a[25][80];
- int i,j,k;
- for(i=0;i<25;i++)
- {
-    for(j=0;j<79;j++)
-    {
-      a[i][j]=' ';
-    }
-    a[i][79]='\0';
- }
-for(i=0;i<25;i++)
-{
- for(j=0;j<79;j++)
- {
-   
- }
-
-}
-
-
-}*/
-
-
-
-
-void main()
+void load()
 {
    int i,j,k;
    char a[80];
@@ -70,4 +43,8 @@ void main()
 
    }
    getch();
+}
+void main()
+{
+	load();
 }
