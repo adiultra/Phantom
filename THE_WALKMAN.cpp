@@ -105,7 +105,7 @@ void load(){
 
 /********************
 Do me a favour....Save this cross-section between astrics "THE 2050" mutual to the program as '2050.txt'
-If incase you are unable to save it, just make the statement at line number  comment
+If incase you are unable to save it, just make the statement at row number '346',  comment
 ******************************************************************************
 	                  """"WELCOME TO THE FUTURE""""
 
