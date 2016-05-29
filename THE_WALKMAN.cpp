@@ -165,7 +165,7 @@ if(i%2==1){
 int check_level(int r, int c, char f){
 	int i, j, count=0;
 	for(i=c, j=c; i<=15, j>=0;i++, j--){
-		if(::a[r][j]!=f&&::a[r][j]!='|'&&::a[r][j]!='~'||::a[r][i]!=f&&::a[r][i]!='|'&&::a[r][i]!='~'){
+		if(::a[r][j]!=f&&::a[r][j]!='|'&&::a[r][j]!='~'&&::a[r][i]!=f&&::a[r][i]!='|'&&::a[r][i]!='~'){
 			break;
 		}
 		else if(::a[r][j]==f||::a[r][i]==f){
