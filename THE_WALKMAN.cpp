@@ -1,7 +1,6 @@
 /***THE WALK MAN    (c)ARCHITDWIVEDI//ARCDWI. ALL RIGHTS RESERVED***/
 /*************************************************************/
-/*******FIRST DO SAVE 2050.txt FROM BELOW, 
-MUTUAL TO THIS PROGRAM FOR BETTER EXPERIENCE******/
+
 #include <iomanip.h>
 #include <ctype.h>
 #include <fstream.h>
@@ -103,24 +102,6 @@ void load(){
 
 ///////   </>LOAD ///////
 
-/********************
-Do me a favour....Save this cross-section between astrics "THE 2050" mutual to the program as '2050.txt'
-If incase you are unable to save it, just make the statement at row number '346',  comment
-******************************************************************************
-	                  """"WELCOME TO THE FUTURE""""
-
-////     ||||||||||||||  ||||||||||||||  ||||||||||||||  ||||||||||||||   \\\\
-\\\\                  |  |            |  |               |            |   ////
-////                  |  |            |  |               |            |   \\\\
-\\\\                  |  |            |  |               |            |   ////
-////                  |  |            |  |               |            |   \\\\
-\\\\     ||||||||||||||  |            |  ||||||||||||||  |            |   ////
-////     |               |            |               |  |            |   \\\\
-\\\\     |               |            |               |  |            |   ////
-////     |               |            |               |  |            |   \\\\
-\\\\     ||||||||||||||  ||||||||||||||  ||||||||||||||  ||||||||||||||   ////
-(c) ARCHIT DWIVEDI//ARCDWI. ALL RIGHTS RESERVED.
-******************************************************************************/
 ////// P2050    ////////
 void p2050(){
     fstream a("2050.txt",ios::in);
@@ -343,13 +324,17 @@ void main(){
 	clrscr();
 	cout<<"HOPE YOU'LL ENJOY THE GAME FROM 2050..\n'THE WALK MAN'"<<endl;
 	getch();
+	
 	p2050();
 	cout<<"Press any key!"<<endl;
 	getch();
+	
 	curtain();
 	getch();
+	
 	cout<<"\n Let's play_walkman....\nPress any key"<<endl;
 	getch();
+	
 	play_walkman();
 	getch();
 }
